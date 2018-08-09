@@ -15,7 +15,7 @@ public:
     vector<int>temp;
     vector<vector<int> > FindPath(TreeNode* root,int expectNumber) {
         if(root != NULL)
-        findOnePath(root,expectNumber);
+            findOnePath(root,expectNumber);
         return result;
     }
     
