@@ -34,8 +34,8 @@ public:
 
 int main()
 {
-    vector<vector<int> >array(4,vector<int>(4));  //定义一个4*4的二维数组
-    //给数组元素赋值
+    vector<vector<int> >array(4,vector<int>(4));  //锟斤拷锟斤拷一锟斤拷4*4锟侥讹拷维锟斤拷锟斤拷
+    //锟斤拷锟斤拷锟斤拷元锟截革拷值
     array[0][0]=1;
     array[0][1]=2;
     array[0][2]=3;
@@ -54,5 +54,6 @@ int main()
     array[3][3]=10;
     Solution s;
     cout<<s.Find(9,array);
+    system("pause");
     return 0;
 }
